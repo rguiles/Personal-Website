@@ -1,2 +1,2 @@
-# Personal-Website
-Starting journey to create website from the ground up
+# Personal Website
+Beginning journey to create a website from the ground up
