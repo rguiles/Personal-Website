@@ -16,5 +16,28 @@
     </nav>
   </header>
 
-  <body></body>
+  <body>
+    <h1>Information Forms</h1>
+    <!-- When a button is inside of a form tag and it is clicked by a user, it will respond with the form's action assignment -->
+    <h2>Say Hello!</h2>
+    <form action="/rbguiles">
+      <p>
+        <label for="email">Please Enter Your Email:</label>
+        <input id="email" type="text" placeholder="email" />
+      </p>
+      <p>
+        <label for="message">Compose Message Here:</label>
+        <input id="message" type="text" placeholder="message" />
+      </p>
+      <p>
+        <label for="color">Your Favorite Color:</label>
+        <input id="color" type="color" placeholder="color" />
+      </p>
+      <p>
+        <label for="banana">Do you like my banana?</label>
+        <input type="checkbox" name="banana" id="banana" />
+      </p>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
