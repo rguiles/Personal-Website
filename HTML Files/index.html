@@ -23,21 +23,34 @@
     <form action="/rbguiles">
       <p>
         <label for="email">Please Enter Your Email:</label>
-        <input id="email" type="text" placeholder="email" />
+        <input id="email" type="text" placeholder="email" name="email" />
       </p>
       <p>
         <label for="message">Compose Message Here:</label>
-        <input id="message" type="text" placeholder="message" />
+        <input id="message" type="text" placeholder="message" name="message" />
       </p>
       <p>
         <label for="color">Your Favorite Color:</label>
-        <input id="color" type="color" placeholder="color" />
+        <input id="color" type="color" placeholder="color" name="color" />
       </p>
       <p>
         <label for="banana">Do you like my banana?</label>
-        <input type="checkbox" name="banana" id="banana" />
+        <input id="banana" type="checkbox" name="banana" name="banana"/>
       </p>
       <button type="submit">Submit</button>
     </form>
+    <p>
+      <h3>Search Functions</h3>
+    <form action="https://www.google.com/search?">
+      <input id="searchbox" type="text" placeholder="Web Search" name="q">
+      <button>Go</button>
+    </form>
+  </p>
+  <p>
+    <form action="https://www.youtube.com/results">
+      <input id="ytbox" type="text" placeholder="Youtube Search" name="search_query">
+      <button>Go</button>
+    </form>
+  </p>
   </body>
 </html>
