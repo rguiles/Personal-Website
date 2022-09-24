@@ -18,7 +18,7 @@
 
   <body>
     <h1>Information Forms</h1>
-    <!-- When a button is inside of a form tag and it is clicked by a user, it will respond with the form's action assignment -->
+    <!-- When a button is inside of a form tag and it is clicked by a user, it will send the response to the form action assignment -->
     <h2>Say Hello!</h2>
     <form action="/rbguiles">
       <p>
@@ -35,12 +35,27 @@
       </p>
       <p>
         <label for="banana">Do you like my banana?</label>
-        <input id="banana" type="checkbox" name="banana" name="banana"/>
+        <input id="banana" type="checkbox" name="banana"/>
       </p>
       <button type="submit">Submit</button>
     </form>
     <p>
-      <h3>Search Functions</h3>
+      <h3>Which dog is your favorite</h3>
+      <p>
+        <div>
+        <label for="eva">Eva</label>
+        <input name="dogs" type="radio" id="eva" value="eva">
+      </div>
+      <div>
+        <label for="dandy">Dandy</label>
+        <input name="dogs" type="radio"  id="dandy" value="dandy">
+      </div>
+      <div>
+        <label for="dingus">Dingus</label>
+        <input name="dogs" type="radio" id="dingus" value="dingus">
+      </div>
+      </p>
+      <h4>Search Functions</h4>
     <form action="https://www.google.com/search?">
       <input id="searchbox" type="text" placeholder="Web Search" name="q">
       <button>Go</button>
@@ -53,4 +68,18 @@
     </form>
   </p>
   </body>
+  <footer>
+    <p>
+      <label for="music">What is your favorite music genre</label>
+      <select name="music" id="music">
+        <option value="">-- Select --</option>
+        <option value="country">Country</option>
+        <option value="classical">Classical</option>
+        <option value="rock">Rock</option>
+        <option value="rap">Rap</option>
+        <option value="pop">Pop</option>
+        <option value="indie">Indie</option>
+      </select>
+    </p>
+  </footer>
 </html>
