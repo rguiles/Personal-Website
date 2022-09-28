@@ -1,5 +1,11 @@
 h1 {
-    color:blueviolet;
+    text-align: center;
+    font-family: comicsans;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: mediumaquamarine;
+    text-decoration: mediumseagreen underline 3px;
 }
 
 h2 {
@@ -7,6 +13,12 @@ h2 {
 }
 
 button {
-    color: aqua;
-    background-color: rgb(230, 100, 150);
+    color: salmon;
+    background-color: aqua;
+}
+
+p{
+    /* font-family determines the font type for the text, if first choice
+    doesnt exist on local machine, second is picked, and then third */
+    font-family: Arial, Helvetica, sans-serif;
 }
