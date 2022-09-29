@@ -1,4 +1,4 @@
-h1 {
+h1{
     text-align: center;
     font-family: comicsans;
     font-weight: bold;
@@ -8,17 +8,35 @@ h1 {
     text-decoration: mediumseagreen underline 3px;
 }
 
-h2 {
+h2, h3{
     color: #0000FF;
 }
 
-button {
-    color: salmon;
-    background-color: aqua;
+body{
+    background-color: aliceblue;
 }
 
+button{
+    color: salmon;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+/* ID selectors use the hashtag symbol to single out a specific 
+element from all other button parameters using id="xxx" */
+#submit-button{
+    color: red;
+    background-color: black;
+}
+
+/* Class selectors use the period symbol to single out a specific 
+element from all other elements using class="xxx" */
+.tag{
+    background-color: aquamarine;
+}
+
+/* font-family determines the font type for the text, if first choice
+doesnt exist on local machine, second is picked, and then third */
 p{
-    /* font-family determines the font type for the text, if first choice
-    doesnt exist on local machine, second is picked, and then third */
     font-family: Arial, Helvetica, sans-serif;
 }
