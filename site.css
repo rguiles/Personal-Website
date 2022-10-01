@@ -8,8 +8,21 @@ h1{
     text-decoration: mediumseagreen underline 3px;
 }
 
+/* Commas act as a list. h2 AND h3 follow the statement rules */
 h2, h3{
     color: #0000FF;
+}
+
+/* Descendant Selectors define only the element inside the 
+specified tag, not all of the elements of that type in the file */
+header a{
+    color: blue;
+}
+
+/* Combinator Selectors define only the VERY NEXT element
+that is listed after the specified tag */
+input button{
+    background-color: purple;
 }
 
 body{
