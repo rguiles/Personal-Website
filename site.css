@@ -13,16 +13,42 @@ h2, h3{
     color: #0000FF;
 }
 
-/* Descendant Selectors define only the element inside the 
-specified tag, not all of the elements of that type in the file */
-header a{
-    color: blue;
+/* pseudo classes/elements are keyword(s) added to a selector to specify a special state  */
+a:hover {
+    color: red;
+    text-decoration: underline;
 }
 
-/* Combinator Selectors define only the VERY NEXT element
-that is listed after the specified tag */
+/* Descendant Selectors define only the element inside the specified tag, not all of the elements of that type in the file */
+header a{
+    color: blue;
+    font-size: large;
+}
+
+/* Combinator Selectors define only the VERY NEXT element that is listed after the specified tag */
 input button{
     background-color: purple;
+}
+
+/* Attribute Selectors define all elements in the form with the type listed in the brackets */
+input[type="email"]{
+    color: red;
+}
+
+/* ID selectors use the hashtag symbol to single out a specific element from all other button parameters using id="xxx" */
+#submit-button{
+    color: red;
+    background-color: black;
+}
+
+/* Class selectors use the period symbol to single out a specific element from all other elements using class="xxx" */
+.tag{
+    background-color: peachpuff;
+}
+
+/* font-family determines the font type for the text, if first choice doesnt exist on local machine, second is picked, and then third */
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -33,23 +59,4 @@ button{
     color: salmon;
     background-color: aqua;
     font-size: 20px;
-}
-
-/* ID selectors use the hashtag symbol to single out a specific 
-element from all other button parameters using id="xxx" */
-#submit-button{
-    color: red;
-    background-color: black;
-}
-
-/* Class selectors use the period symbol to single out a specific 
-element from all other elements using class="xxx" */
-.tag{
-    background-color: aquamarine;
-}
-
-/* font-family determines the font type for the text, if first choice
-doesnt exist on local machine, second is picked, and then third */
-p{
-    font-family: Arial, Helvetica, sans-serif;
 }
