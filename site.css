@@ -51,8 +51,13 @@ input[type="email"]{
 }
 
 /* font-family determines the font type for the text, if first choice doesnt exist on local machine, second is picked, and then third */
-p{
+.about{
+    background-color:antiquewhite;
+    border-style: solid;
+    border-width: 3px;
+    border-color: royalblue;
     font-family: Arial, Helvetica, sans-serif;
+    width: 700px
 }
 
 body{
