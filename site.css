@@ -2,79 +2,97 @@
 /* CSS Inheritance: Any element that has not been directly assigned an
 attribute will take on the attributes of the closest parent element */
 
-h1{
-    text-align: center;
-    font-family: comicsans;
-    font-weight: bold;
-    font-size: 50px;
-    letter-spacing: 2px;
-    color: mediumaquamarine;
-    text-decoration: mediumseagreen underline 3px;
+h1 {
+  text-align: center;
+  font-family: comicsans;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: mediumaquamarine;
+  text-decoration: mediumseagreen underline 3px;
 }
 
 /* Commas act as a list. h2 AND h3 follow the statement rules */
-h2, h3{
-    color: #0000FF;
+h2,
+h3 {
+  color: #0000ff;
 }
 
 /* pseudo classes/elements are keyword(s) added to a selector to specify a special state  */
 a:hover {
-    color: red;
-    text-decoration: underline;
+  color: red;
+  text-decoration: underline;
 }
 
-/* Descendant Selectors define only the element inside the specified tag, not all of the elements of that type in the file */
-header a{
-    color: blue;
-    font-size: large;
+/* Descendant Selectors define only the element inside the */
+/* specified tag, not all of the elements of that type in the file */
+header a {
+  color: blue;
+  font-size: large;
 }
 
 /* Combinator Selectors define only the VERY NEXT element that is listed after the specified tag */
-input button{
-    background-color: purple;
+input button {
+  background-color: purple;
 }
 
 /* Attribute Selectors define all elements in the form with the type listed in the brackets */
-input[type="email"]{
-    color: red;
+input[type="email"] {
+  color: red;
 }
 
-/* ID selectors use the hashtag symbol to single out a specific element from all other button parameters using id="xxx" */
-#submit-button{
-    color: red;
-    background-color: black;
+/* ID selectors use the hashtag symbol to single out a */
+/* specific element from all other button parameters using id="xxx" */
+#submit-button {
+  color: red;
+  background-color: black;
 }
 
-/* Class selectors use the period symbol to single out a specific element from all other elements using class="xxx" */
-.tag{
-    background-color: peachpuff;
+/* Padding is the distance between an element and its own border */
+/* Margin is the distance between two separate elements and their borders */
+#dandy {
+  width: 300px;
+  height: 350px;
+  padding: 5px;
+  margin: 10px;
+  border-color: burlywood;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
 }
 
-/* font-family determines the font type for the text, if first choice doesnt exist on local machine, second is picked, and then third */
-.about{
-    background-color:antiquewhite;
-    border-style: solid;
-    border-width: 3px;
-    border-color: royalblue;
-    border-radius: 5%;
-    /* shorthand way to make a border - width | style | color */
-    /* border: 3px solid royalblue */
-    font-family: Arial, Helvetica, sans-serif;
-    width: 700px
+/* Class selectors use the period symbol to single out a */
+/* specific element from all other elements using class="xxx" */
+.tag {
+  background-color: peachpuff;
 }
 
-body{
-    background-color: aliceblue;
+/* font-family determines the font type for the text, if first choice */
+/* doesnt exist on local machine, second is picked, and then third */
+.about {
+  background-color: antiquewhite;
+  border-style: solid;
+  border-width: 3px;
+  border-color: royalblue;
+  border-radius: 5%;
+  /* shorthand way to make a border - width | style | color */
+  /* border: 3px solid royalblue */
+  font-family: Arial, Helvetica, sans-serif;
+  width: 700px;
 }
 
-button{
-    color: aqua;
-    background-color: salmon;
-    font-size: 20px;
+body {
+  background-color: aliceblue;
 }
 
-button:hover{
-    color: salmon;
-    background-color: aqua;
-    font-size: 20px;
+button {
+  color: aqua;
+  background-color: salmon;
+  font-size: 20px;
+}
+
+button:hover {
+  color: salmon;
+  background-color: aqua;
+  font-size: 20px;
 }
