@@ -9,6 +9,7 @@ h1 {
   font-size: 50px;
   letter-spacing: 2px;
   color: mediumaquamarine;
+  background-color: palevioletred;
   text-decoration: mediumseagreen underline 3px;
 }
 
@@ -16,6 +17,15 @@ h1 {
 h2,
 h3 {
   color: #0000ff;
+  background-color: azure;
+  border: solid black 1px;
+}
+
+/* spans are inline by default but can be set to be blocked */
+span{
+  display: block;
+  background-color: azure;
+  border: solid black 1px;
 }
 
 /* pseudo classes/elements are keyword(s) added to a selector to specify a special state  */

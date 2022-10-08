@@ -18,9 +18,13 @@
   </header>
 
   <body>
+    <!-- block elements (vertical) do not ignore height/width attributes in css file -->
     <h1>Information Forms</h1>
-    <!-- When a button is inside of a form tag and it is clicked by a user, it will send the response to the form action assignment -->
+    <!-- when elements are set to be inline (horizontal), they will ignore their height/width 
+     to match whatever element they are inline with -->
     <h2>Say Hello!</h2>
+    <!-- spans act like inline block elements/text -->
+    <span>This is a span</span>
     <form action="/rbguiles">
       <p>
         <label for="email">Enter Your Email:</label> <br> 
@@ -38,6 +42,8 @@
         <label for="banana">Do you like my banana?</label>
         <input id="banana" type="checkbox" name="banana"/>
       </p>
+     <!-- When a button is inside of a form tag and it is clicked by a user, 
+     it will send the response to the form action assignment -->
       <button type="submit" id="submit-button">Submit</button>
     </form>
     <p>
@@ -48,8 +54,8 @@
         <input name="dogs" type="radio" id="eva" value="eva">
       </div>
       <div>
-        <label for="dandy">Dandy</label>
-        <input name="dogs" type="radio"  id="dandy" value="dandy">
+        <label for="dan">Dandy</label>
+        <input name="dogs" type="radio"  id="dan" value="dandy">
       </div>
       <div>
         <label for="dingus">Dingus</label>
