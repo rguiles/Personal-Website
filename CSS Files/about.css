@@ -9,6 +9,13 @@ section{
     background-color: palegreen;
 }
 
+/* positioning: static, relative, absolute, fixed, sticky */
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
 /* the a of rgba stands for alpha (transparency).
 affects only the element of which rgba is assigned */
 #rgba{

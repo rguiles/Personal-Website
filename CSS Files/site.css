@@ -1,4 +1,4 @@
-/* Rules of Specificity: Inline > ID > Class > Element */
+/* Rules of Specificity: Inline > ID(#) > Class(.) > Element */
 /* CSS Inheritance: Any element that has not been directly assigned an
 attribute will take on the attributes of the closest parent element */
 
