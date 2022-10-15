@@ -1,19 +1,35 @@
-h1 {
-  font-size: larger;
-  color: blueviolet;
-}
-
-section {
-  width: 500px;
-  height: 500px;
-  background-color: palegreen;
-}
-
 /* positioning: static, relative, absolute, fixed, sticky */
 header {
   position: sticky;
   top: 0;
   left: 0;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+body {
+  background-image: url(../Assets/Ocean.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: larger;
+  color: blueviolet;
+  width: 100px;
+  background-color: rgb(205, 220, 236);
+  transform: rotate(15deg);
+}
+
+section {
+  width: 500px;
+  height: 500px;
+  background-color: #151b29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* the a of rgba stands for alpha (transparency).
@@ -22,6 +38,22 @@ affects only the element of which rgba is assigned */
   width: 50%;
   height: 50%;
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+#rgba button {
+  background: none;
+  color: blueviolet;
+  border: 2px solid;
+  margin-top: 0.5em;
+  padding: 1em 2em;
+  font-size: 1em;
+}
+
+#rgba button:hover {
+  border-color: palevioletred;
+  box-shadow: 0.5em 0.5em 0.5em -0.4em palevioletred;
+  transform: translateY(-0.25em);
+  cursor: pointer;
 }
 
 /* opacity will affect everything that is inluded in the elemnent, like text */
@@ -42,6 +74,6 @@ transition: property name | duration | timing function | delay */
 }
 
 #transition:hover {
-    background-color: aqua;
-    border-radius: 50%;
+  background-color: aqua;
+  border-radius: 50%;
 }
