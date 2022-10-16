@@ -7,3 +7,4 @@ This repository is my journey of creating a personal website.
  - Week 02: CSS Basics
  - Week 03: HTML & CSS Shared Rulesets
  - Week 04: Additional CSS Properties
+ - Week 05: Flexbox & Responsive Design
