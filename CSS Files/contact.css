@@ -1,0 +1,37 @@
+html {
+  font-size: medium;
+}
+
+h1 {
+  text-align: center;
+  font-family: comicsans;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 10px auto;
+  letter-spacing: 2px;
+  color: royalblue;
+  text-decoration: black underline 3px;
+}
+
+.about {
+  background-color: antiquewhite;
+  /* shorthand way to make a border - width | style | color */
+  /* border: 3px solid royalblue */
+  border-style: solid;
+  border-width: 5px;
+  border-color: royalblue;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: #0000ff;
+  background-color: azure;
+  border: solid black 1px;
+  line-height: 40px;
+  text-align: center;
+}
+
