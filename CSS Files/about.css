@@ -1,24 +1,24 @@
-/* positioning: static, relative, absolute, fixed, sticky */
+html{
+  font-size: medium;
+}
+
+/* position: static, relative, absolute, fixed, sticky */
 header {
   position: sticky;
   background-color: lightskyblue;
-  border: black 3px solid;
+  border: 3px black solid;
   top: 0;
   left: 0;
 }
 
-/* the magic of flexbox in the navbar */
 nav {
   font-size: x-large;
   height: 50px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-}
-
-div:nth-of-type(1){
-  flex-grow: 1;
 }
 
 a:hover {
@@ -32,11 +32,17 @@ body {
 }
 
 h1 {
-  font-size: larger;
-  color: blueviolet;
-  width: 100px;
-  background-color: rgb(205, 220, 236);
-  transform: rotate(15deg);
+  font-size: xx-large;
+  color: palegoldenrod;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  /* transform: rotate(15deg); */
+}
+
+main {
+  border: 3px black solid;
 }
 
 section {
@@ -48,15 +54,22 @@ section {
   justify-content: center;
 }
 
+/* flex: 2 2 10% (shorthand) flex-grow | flex-shrink | flex-basis */
+section #sidebar{
+  background-color: lightskyblue;
+  flex: 1 2 300px;
+}
+
+
 /* the a of rgba stands for alpha (transparency).
 affects only the element of which rgba is assigned */
-#rgba {
+.rgba {
   width: 50%;
   height: 50%;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-#rgba button {
+.rgba button {
   background: none;
   color: blueviolet;
   border: 2px solid;
@@ -65,7 +78,7 @@ affects only the element of which rgba is assigned */
   font-size: 1em;
 }
 
-#rgba button:hover {
+.rgba button:hover {
   border-color: palevioletred;
   box-shadow: 0.5em 0.5em 0.5em -0.4em palevioletred;
   transform: translateY(-0.25em);
@@ -73,7 +86,7 @@ affects only the element of which rgba is assigned */
 }
 
 /* opacity will affect everything that is inluded in the elemnent, like text */
-#opacity {
+.opacity {
   width: 50%;
   height: 50%;
   background-color: white;
@@ -82,14 +95,14 @@ affects only the element of which rgba is assigned */
 
 /* transition can be defined in the following order
 transition: property name | duration | timing function | delay */
-#transition {
+.transition {
   width: 50%;
   height: 50%;
   background-color: rgba(255, 255, 255, 0.5);
   transition: background-color 0.5s ease-in, border-radius 1s;
 }
 
-#transition:hover {
+.transition:hover {
   background-color: aqua;
   border-radius: 50%;
 }
