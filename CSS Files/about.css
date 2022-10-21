@@ -1,4 +1,4 @@
-html{
+html {
   font-size: medium;
 }
 
@@ -55,11 +55,10 @@ section {
 }
 
 /* flex: 2 2 10% (shorthand) flex-grow | flex-shrink | flex-basis */
-section #sidebar{
+section #sidebar {
   background-color: lightskyblue;
   flex: 1 2 300px;
 }
-
 
 /* the a of rgba stands for alpha (transparency).
 affects only the element of which rgba is assigned */
@@ -105,4 +104,19 @@ transition: property name | duration | timing function | delay */
 .transition:hover {
   background-color: aqua;
   border-radius: 50%;
+}
+
+/* @media is used when modifying the screen dimensions specific to the user device */
+@media (max-width: 800px) {
+  nav{
+    font-size: medium;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (orientation: landscape) {
+  body {
+    background-color: beige;
+  }
 }
