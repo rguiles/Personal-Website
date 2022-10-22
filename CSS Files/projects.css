@@ -1,0 +1,31 @@
+html{
+    font-size: medium;
+}
+
+header {
+    position: sticky;
+    background-color: lightskyblue;
+    border: 3px black solid;
+    top: 0;
+    left: 0;
+  }
+  
+  nav {
+    font-size: x-large;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  body {
+    background-image: url(../Assets/Ocean.jpg);
+    background-size: cover;
+  }
