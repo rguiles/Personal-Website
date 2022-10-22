@@ -68,6 +68,8 @@ affects only the element of which rgba is assigned */
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+/* Class selectors use the period symbol to single out a */
+/* specific element from all other elements using class="xxx" */
 .rgba button {
   background: none;
   color: blueviolet;

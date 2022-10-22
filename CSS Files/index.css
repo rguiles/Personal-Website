@@ -83,7 +83,7 @@ a:hover {
 /* specified tag, not all of the elements of that type in the file */
 header a {
   color: blue;
-  font-size: large;
+  font-size: x-large;
 }
 
 /* Combinator Selectors define only the VERY NEXT element that is listed after the specified tag */
@@ -101,25 +101,6 @@ input[type="email"] {
 #submit-button {
   color: red;
   background-color: black;
-}
-
-/* Padding is the distance between an element and its own border */
-/* Margin is the distance between two separate elements and their borders */
-#dandy {
-  width: 300px;
-  height: 350px;
-  padding: 5px;
-  margin: 10px;
-  border-color: burlywood;
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 50%;
-}
-
-/* Class selectors use the period symbol to single out a */
-/* specific element from all other elements using class="xxx" */
-.tag {
-  background-color: peachpuff;
 }
 
 /* font-family determines the font type for the text, if first choice */
