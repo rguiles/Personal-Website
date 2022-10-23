@@ -7,6 +7,20 @@ html {
   font-size: medium;
 }
 
+/* Purple Theme
+$russian-violet: rgba(35, 25, 66, 1);
+$purple-navy: rgba(94, 84, 142, 1);
+$purple-mountain-majesty: rgba(159, 134, 192, 1);
+$lilac: rgba(190, 149, 196, 1);
+$pink-lavender: rgba(224, 177, 203, 1); */
+
+/* Pale Easter
+$cg-blue: rgba(34, 124, 157, 1);
+$azure-x-11-web-color: rgba(234, 253, 248, 1);
+$platinum: rgba(229, 233, 236, 1);
+$languid-lavender: rgba(221, 202, 217, 1);
+$china-rose: rgba(168, 87, 126, 1); */
+
 header {
   position: sticky;
   background-color: lightskyblue;
@@ -31,7 +45,12 @@ a:hover {
 }
 
 body {
-  background-image: url(../Assets/Ocean.jpg);
+  /* background-image: url(../Assets/Ocean.jpg); */
+  background: linear-gradient(
+    90deg,
+    hsla(339, 100%, 55%, 1) 0%,
+    hsla(197, 100%, 64%, 1) 100%
+  );
   background-size: cover;
 }
 
