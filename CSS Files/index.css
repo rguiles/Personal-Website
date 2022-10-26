@@ -45,11 +45,10 @@ a:hover {
 }
 
 body {
-  /* background-image: url(../Assets/Ocean.jpg); */
   background: linear-gradient(
-    90deg,
-    hsla(339, 100%, 55%, 1) 0%,
-    hsla(197, 100%, 64%, 1) 100%
+    135deg,
+    hsla(138, 82%, 69%, 1) 0%,
+    hsla(203, 100%, 79%, 1) 66%
   );
   background-size: cover;
 }
