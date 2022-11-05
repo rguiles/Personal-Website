@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="chrome" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>rbguiles.dev - Projects</title>
-    <link rel="stylesheet" href="../CSS Files/projects.css">
+    <!-- content delivery network (CDN) distributes data through a private server  -->
+    <!-- Link order matters here and the last link will overwrite previous changes -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../CSS Files/projects.css" />
   </head>
 
   <header>
@@ -21,35 +27,49 @@
     <!-- Table Elements: td-defines a cell of a table, tr-defines a row of cells in a table,
                          th-defines a cell as a header of a group of cells -->
     <h1>Projects</h1>
-    <table>
-      <thead>
-        <tr>
-          <th>Project Name</th>
-          <th>Description</th>
-          <th>Link</th>
-          <th>Files</th>
-        </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>MindSanctuary</td>
-        <td>Mental Wellness App with Daily Journal and Interactive Quiz</td>
-        <td><a href="www.mindsanctuary.dev">Link</a></td>
-        <td>Download File</td>
-      </tr>
-      <tr>
-        <td>The Tap Room</td>
-        <td>Conceptualized Business Model built through a Practical Database</td>
-        <td>N/A</td>
-        <td>Download File</td>
-      </tr>
-      <tr>
-        <td>Space Blobs</td>
-        <td>Browser based JavaScript Game similar to 'whack-a-mole'</td>
-        <td>N/A</td>
-        <td>Download File</td>
-      </tr>
-    </thead>
-    </table>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Link</th>
+            <th>Files</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MindSanctuary</td>
+            <td>Mental Wellness App with Daily Journal and Interactive Quiz</td>
+            <td><a href="www.mindsanctuary.dev">Link</a></td>
+            <td>Download File</td>
+          </tr>
+          <tr>
+            <td>The Tap Room</td>
+            <td>
+              Conceptualized Business Model built through a Practical Database
+            </td>
+            <td>N/A</td>
+            <td>Download File</td>
+          </tr>
+          <tr>
+            <td>Space Blobs</td>
+            <td>Browser based JavaScript Game similar to 'whack-a-mole'</td>
+            <td>N/A</td>
+            <td>Download File</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
