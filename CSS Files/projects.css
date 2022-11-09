@@ -26,6 +26,10 @@ header {
   }
   
   body {
-    background-image: url(../Assets/Ocean.jpg);
+    /* background-image: url(../Assets/Ocean.jpg); */
     background-size: cover;
+  }
+
+  .project-table {
+    background-color: aliceblue;
   }
